@@ -1,0 +1,1191 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+   scroll-padding-top: 9px;
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: white;
+}
+
+body {
+   background: black;
+   font-family: Rajdhani;
+}
+
+section {
+   margin-top: 50px;
+}
+
+header {
+   background-image: url('../images/illustrations/Bathome1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 710px;
+   justify-content: space-between;
+   position: relative;
+}
+
+header .ligne .cadre1 {
+   position: relative;
+   border: 1.8px solid white;
+   height: 6755px;
+   right: 1095px;
+   opacity: 0.1;
+   width: 0;
+}
+
+header .ligne .cadre2 {
+   position: relative;
+   border: 1.8px solid white;
+   height: 6755px;
+   right: 84px;
+   opacity: 0.1;
+   bottom: 6755px;
+   width: 0;
+}
+
+.cadre3 {
+   position: relative;
+   border: 2px solid white;
+   width: 1012px;
+   left: 84px;
+   opacity: 0.1;
+   bottom: 4805px;
+   width: 1012px;
+
+}
+
+.logo {
+   position: relative;
+   left: 150px;
+   top: 40px;
+   width: 90%;
+   height: 5%;
+}
+
+.logo .logohome {
+   position: relative;
+   width: 90%;
+   left: 5px;
+   cursor: pointer;
+}
+
+.logohome:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+
+}
+
+.logo_bat_flèche .logohome2 {
+   position: relative;
+   width: 88px;
+   left: 1052px;
+   top: 262px;
+}
+
+.logohome2:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.logo_bat_flèche_2 .logohome3 {
+   position: relative;
+   width: 88px;
+   left: 1052px;
+   top: 424px;
+}
+
+.logohome3:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.icon_facebook .logohome4 {
+   position: relative;
+   width: 21px;
+   left: 1084px;
+   top: 232px;
+}
+
+.logohome4:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.icon_ig .logohome5 {
+   position: relative;
+   width: 21px;
+   left: 1084px;
+   top: 255px;
+}
+
+.logohome5:hover {
+   filter: invert(45%) sepia(80%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.icon-tw .logohome6 {
+   position: relative;
+   width: 28px;
+   left: 1084px;
+   top: 279px;
+   padding: 2px;
+}
+
+.logohome6:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.menu {
+   color: white;
+   list-style: none;
+   flex-wrap: wrap;
+   position: absolute;
+   right: 150px;
+   width: 8%;
+   height: 5%;
+   top: 45px;
+}
+
+.menu .item {
+   position: absolute;
+   margin-left: 20px;
+   font-size: 21px;
+   text-decoration: underline;
+   right: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blog {
+   position: absolute;
+   right: 0;
+   left: 290px;
+   margin-top: 305px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   font-size: 21px;
+   width: 50%;
+   top: 15px;
+}
+
+.blog h2 {
+   position: relative;
+   bottom: 5px;
+   font-size: 25px;
+}
+
+.button {
+   position: absolute;
+   padding: 35px;
+   right: 50px;
+   left: 340px;
+   top: 460px;
+   width: 500px;
+   opacity: .6;
+}
+
+
+.button1 {
+   background: linear-gradient(to right, #a95b52 60%, #871819 100%);
+   position: absolute;
+   right: 268px;
+   display: inline-block;
+   font-size: 16px;
+   padding: 16px 38px 16px 42px;
+   top: 10px;
+   transition: 0.5s;
+   color: white;
+   text-decoration: 0;
+}
+
+.button2 {
+   background: linear-gradient(to right, #a95b52 60%, #871819 100%);
+   position: absolute;
+   left: 268px;
+   display: inline-block;
+   font-size: 16px;
+   padding: 16px 18px 16px 40px;
+   top: 10px;
+   color: white;
+   text-decoration: 0;
+}
+
+
+/* ======= Debut CSS Cinema ========= */
+#cinema {
+   text-align: justify;
+}
+
+.container {
+   position: absolute;
+   right: 0;
+   left: 0;
+   top: 700px;
+   padding: 450px;
+
+}
+
+.fleche {
+   position: absolute;
+   top: 60px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   left: 540px;
+   width: 5%;
+}
+
+.container h1 {
+   position: absolute;
+   color: white;
+   left: 150px;
+   top: 180px;
+   font-size: 28px;
+}
+
+.container .paragraphe1 {
+   position: relative;
+   padding: 40px;
+   bottom: 285px;
+   width: 840px;
+   right: 340px;
+
+}
+
+.container p {
+   color: white;
+   position: relative;
+   left: 0px;
+   top: 2px;
+   font-size: 20px;
+   display: inline-block;
+   word-wrap: break-word;
+}
+
+/* ============Fin CSS Cinema ========= */
+
+/* ======Debut CSS d'image Batman===== */
+#sary1 {
+   padding: 0 10%;
+   margin-bottom: 50px;
+   transition: 0.300s;
+}
+
+#sary1 .content1 {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 15px;
+   /* background-color: yellow;  */
+   flex-direction: row;
+}
+
+#sary1 .content1 .box1 {
+
+   /* overflow: hidden; */
+   position: relative;
+   height: 390px;
+   /* height: auto; */
+   top: 350px;
+   left: 35px;
+   /* background-color: #871819; */
+   transition: 1s;
+}
+
+#sary1 .content1 .box1 img {
+   height: 100%;
+   display: block;
+   /* height: auto; */
+   width: 85%;
+   cursor: pointer;
+}
+
+
+#sary1 .content1 .box1:hover {
+   /* border: 1px solid white; */
+   transform: scale(1.3%);
+   transition: 1s;
+   z-index: 2;
+}
+
+#sary1 .title1 {
+   color: white;
+   position: relative;
+   top: 800px;
+   font-size: 14px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+   left: 35px;
+   /* background-color: #176b87; */
+}
+
+/* ====== Fin CSS d'image Batman===== */
+
+/* =========Debut CSS Form Nemesis======== */
+#nemesis {
+   text-align: justify;
+}
+
+.container1 {
+   position: absolute;
+   right: 0;
+   left: 0;
+   top: 700px;
+   padding: 450px;
+}
+
+.container1 {
+   position: absolute;
+   margin-top: 400px;
+   padding: 430px;
+   right: 0;
+   left: 0;
+   padding-bottom: 450px;
+}
+
+.container1 .logo11 {
+   position: absolute;
+   width: 120px;
+   left: 230px;
+   top: 570px;
+}
+
+.container1 h1 {
+   position: absolute;
+   color: white;
+   font-size: 28px;
+   left: 150px;
+   top: 630px;
+}
+
+.container1 .paragraphe2 {
+   position: relative;
+   padding: 55px;
+   top: 200px;
+   width: 845px;
+   right: 335px;
+}
+
+.container1 .paragraphe2 p {
+   color: white;
+   position: relative;
+   left: 0px;
+   top: 2px;
+   font-size: 20px;
+   display: inline-block;
+   word-wrap: break-word;
+}
+
+/* =========Fin CSS Form Nemesis======== */
+
+/* ======Debut CSS d'image Nemessis===== */
+#sary2 {
+   padding: 0 10%;
+   margin-bottom: 50px;
+}
+
+#sary2 .content2 {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 15px;
+}
+
+#sary2 .content2 .box2 {
+   overflow: hidden;
+   position: relative;
+   height: 390px;
+   top: 705px;
+   left: 35px;
+}
+
+#sary2 .content2 .box2 img {
+   height: 100%;
+   width: 85%;
+}
+
+#sary2 .title2 {
+   color: white;
+   position: relative;
+   top: 1155px;
+   font-size: 14px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+   left: 35px;
+}
+
+/* ====== Fin CSS d'image Nemesis===== */
+
+/* =========Debut CSS Form Allies======== */
+#allies {
+   text-align: justify;
+}
+
+.container2 {
+   position: absolute;
+   margin-top: 800px;
+   padding: 400px;
+   right: 0;
+   left: 0;
+   padding-bottom: 480px;
+}
+
+.container2 .Bathome12 {
+   position: absolute;
+   width: 340px;
+   right: 0;
+   bottom: 920px;
+}
+
+.container2 h1 {
+   position: absolute;
+   color: white;
+   font-size: 28px;
+   left: 150px;
+   top: 50px;
+}
+
+.container2 .paragraphe3 {
+   position: relative;
+   padding-left: 15px;
+   padding-right: 15px;
+   bottom: 295px;
+   width: 776px;
+   right: 270px;
+}
+
+.container2 p {
+   color: white;
+   position: relative;
+   text-align: justify;
+   top: 0px;
+   font-size: 20px;
+   display: inline-block;
+   word-wrap: break-word;
+   width: 740px;
+}
+
+/* =========Fin CSS Form Allies======== */
+
+/* ======Debut CSS d'image Allies===== */
+#sary3 {
+   padding: 0 10%;
+   margin-bottom: 50px;
+}
+
+#sary3 .content3 {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 15px;
+}
+
+#sary3 .content3 .box3 {
+   overflow: hidden;
+   position: relative;
+   height: 390px;
+   top: 1060px;
+   left: 30px;
+}
+
+#sary3 .content3 .box3 img {
+   height: 100%;
+   width: 85%;
+}
+
+#sary3 .title3 {
+   color: white;
+   position: relative;
+   top: 1510px;
+   font-size: 14px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+   left: 35px;
+}
+
+/* ====== Fin CSS d'image Allies===== */
+
+/* =========Debut CSS Form Justice======== */
+#justice {
+   text-align: justify;
+}
+
+.container3 {
+   position: absolute;
+   margin-top: 900px;
+   padding: 100px;
+   right: 0;
+   left: 0;
+   padding-bottom: 400px;
+   top: 2500px;
+}
+
+.container3 h1 {
+   position: absolute;
+   color: white;
+   font-size: 28px;
+   left: 200px;
+   bottom: 640px;
+}
+
+.container3 .paragraphe4 {
+   position: relative;
+   padding: 20px;
+   bottom: 85px;
+   width: 750px;
+   left: 80px;
+}
+
+.container3 p {
+   color: white;
+   position: relative;
+   left: 0px;
+   top: 2px;
+   font-size: 20px;
+   display: inline-block;
+   word-wrap: break-word;
+}
+
+/* =========Fin CSS Form Justice======== */
+
+
+/* ======Debut CSS d'image Justice===== */
+#sary4 .content4 .box4 {
+   overflow: hidden;
+   position: relative;
+   top: 1440px;
+   left: 0;
+   right: 0;
+}
+
+#sary4 .content4 .box4 img {
+   height: 100%;
+   width: 100%;
+}
+
+/* ====== Fin CSS d'image Justice===== */
+
+/* =========Debut CSS Form Multimedia======== */
+#multimedia {
+   text-align: justify;
+}
+
+.container4 {
+   position: absolute;
+   margin-top: 1500px;
+   padding: 100px;
+   right: 0;
+   left: 0;
+   padding-bottom: 350px;
+   height: 500px;
+}
+
+.container4 h1 {
+   position: absolute;
+   color: white;
+   font-size: 28px;
+   left: 150px;
+   bottom: 530px;
+}
+
+.container4 .icon_flèche_1 {
+   position: absolute;
+   width: 3%;
+   left: 13%;
+   bottom: 350px;
+   cursor: pointer;
+}
+
+.container4 .icon_flèche_2 {
+   position: absolute;
+   width: 3%;
+   right: 13%;
+   bottom: 350px;
+   cursor: pointer;
+}
+
+#descriptive {
+   position: relative;
+   height: 220px;
+   width: 495px;
+   left: 260px;
+   bottom: 65px;
+   margin-bottom: 500px;
+}
+
+.container4 .Bathome {
+   position: absolute;
+   left: 1px;
+   top: 10px;
+}
+
+.container4 .Bathome .Bathome_ba1 {
+   width: 90%;
+}
+
+.container4 .paragraph5 {
+   background: linear-gradient(to bottom right, #3f403a 15%, #0a1e2a 100%);
+   border-radius: 0 10px 10px 0;
+   position: absolute;
+   color: white;
+   left: 140px;
+   top: 2px;
+   padding: 12px;
+   padding-bottom: 20px;
+   font-size: 11px;
+   width: 350px;
+   letter-spacing: 0.3px;
+}
+
+.container4 .paragraph5 p {
+   position: relative;
+   font-size: 12px;
+   opacity: .7;
+}
+
+.container4 .paragraph5 p span {
+   color: #FFFF00;
+   font-size: 15px;
+   opacity: 1;
+}
+
+/* =========Fin CSS Form Multimedia======== */
+
+/* ======Debut CSS d'image Justice===== */
+#sary5 .content5 .box5 {
+   overflow: hidden;
+   position: relative;
+   top: 1850px;
+   left: 150px;
+   right: 0;
+   width: 75%;
+   height: 498px;
+   padding-bottom: 20px;
+   background-color: white;
+}
+
+#sary5 .content5 .box5 img {
+   position: relative;
+   width: 100%;
+}
+
+.box5:hover {
+   box-shadow: 0 0 80px rgb(225, 225, 213);
+}
+
+/* ====== Fin CSS d'image Justice===== */
+
+
+/*=============== Debut CSS Contact ======================*/
+#contact {
+   text-align: justify;
+}
+
+.contact-form {
+   background: linear-gradient(to bottom right, #3c3e3a 30%, #0b202c 77%);
+   padding: 0 5px;
+   margin-bottom: 10px;
+   height: 130vh;
+   position: relative;
+   top: 1915px;
+}
+
+.contact-form h1 {
+   position: relative;
+   color: white;
+   left: 465px;
+   top: 50px;
+   font-size: 24px;
+   width: 240px;
+}
+
+.contac-box {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   height: 65%;
+}
+
+.contac-box h3 {
+   font-size: 17px;
+}
+
+.contac-box .textbox {
+   width: 600px;
+   overflow: hidden;
+   font-size: 20px;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid #7b7d79;
+}
+
+.contac-box select {
+
+   width: 600px;
+   border: none;
+   outline: none;
+   background: none;
+
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -ms-appearance: none;
+   appearance: none;
+   box-shadow: none;
+   border: 0 !important;
+   outline: 0;
+   flex: 1;
+   color: #fff;
+   opacity: .4;
+   cursor: pointer;
+   background: yellow;
+   background-image: none;
+
+}
+
+select::-ms-expand {
+   display: none;
+}
+
+.select {
+   position: relative;
+   display: flex;
+   width: 60em;
+   height: 3em;
+   line-height: 3;
+   overflow: hidden;
+   border-bottom: 1px solid #7b7d79;
+}
+
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   left: 560px;
+   right: 0;
+   padding: 0 1.5em;
+   cursor: pointer;
+   pointer-events: none;
+   transition: .25s all ease;
+   opacity: .4;
+}
+
+.select:hover::after {
+   color: yellow;
+}
+
+
+.combox .optgroup .option {
+   background: #5f1920;
+}
+
+.contac-box p {
+   font-size: 13px;
+   opacity: .3;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contac-box input[type=checkbox] {
+   position: relative;
+   left: 140px;
+   bottom: 10px;
+
+}
+
+.contac-box .textbox input {
+   border: none;
+   outline: none;
+   background: none;
+   color: rgb(111, 218, 143);
+   width: 620px;
+   font-size: 14px;
+}
+
+.contac-box .btn {
+   position: relative;
+   left: 70px;
+   width: 500px;
+   bottom: 10px;
+   height: 50px;
+}
+
+.btn .btn1 {
+   border: 1px solid #77736F;
+   border-image: linear-gradient(115deg, #989690 0%, #176b87);
+   border-image-slice: 1;
+   padding: 9px 20px 9px 20px;
+   font-size: 12px;
+   position: relative;
+   display: inline-block;
+   left: 90px;
+   top: 12px;
+   color: white;
+   text-decoration: 0
+}
+
+.btn .btn1:hover {
+   background: linear-gradient(to right, #989690 0%, #176b87 100%);
+}
+
+.btn .btn2 {
+   border: 1px solid #77736F;
+   border-image: linear-gradient(115deg, #989690 0%, #176b87);
+   border-image-slice: 1;
+   padding: 9px 20px 9px 20px;
+   font-size: 12px;
+   position: relative;
+   left: 120px;
+   top: 12px;
+   color: white;
+   text-decoration: 0;
+}
+
+.btn .btn2:hover {
+   background: linear-gradient(to right, #989690 0%, #176b87 100%);
+}
+
+.btn .btn3 {
+   border: 1px solid #77736F;
+   border-image: linear-gradient(115deg, #989690 0%, #176b87);
+   border-image-slice: 1;
+   padding: 9px 20px 9px 20px;
+   font-size: 12px;
+   position: relative;
+   left: 150px;
+   top: 12px;
+   color: white;
+   text-decoration: 0;
+}
+
+.btn .btn3:hover {
+   background: linear-gradient(to right, #989690 0%, #176b87 100%);
+}
+
+.btn-conf {
+   position: relative;
+   height: 75px;
+   width: 250px;
+   left: 200px;
+   top: 210px;
+
+}
+
+.btn-conf .btn4 {
+   background: linear-gradient(to right, #77736f 30%, #5f1920 95%);
+   position: absolute;
+   font-size: 16px;
+   color: white;
+   padding: 20px 65px 20px 65px;
+   bottom: 200px;
+   text-decoration: 0;
+   left: 5px;
+}
+
+dialog {
+   width: 90%;
+   height: 76%;
+   position: absolute;
+   color: white;
+   left: 350px;
+   bottom: 150px;
+}
+
+/*  */
+
+/* ============= Debut CSS replique =============== */
+#replique {
+   text-align: justify;
+}
+
+.container6 {
+   position: relative;
+   margin-bottom: 50px;
+   top: 1865px;
+   padding: 70px;
+}
+
+.container6 .logo4 {
+   position: absolute;
+   width: 3%;
+   left: 20%;
+   bottom: 290px;
+}
+
+.container6 .logo4 .icon_guillemets_1 {
+   position: absolute;
+   width: 80px;
+   left: 0;
+   bottom: 45px;
+}
+
+.container6 .logo4 .icon_guillemets_2 {
+   position: absolute;
+   width: 80px;
+   left: 630px;
+   top: 70px;
+}
+
+.container6 .txt_replique1 {
+   position: relative;
+   bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   font-size: 17px;
+   padding: 150px;
+}
+
+.container6 .txt_replique1 p {
+   position: relative;
+   letter-spacing: 0.6px;
+}
+
+.container6 .txt_replique2 {
+   position: relative;
+   bottom: 140px;
+   width: 400px;
+   left: 320px;
+}
+
+.container6 .txt_replique2 p {
+   position: relative;
+   color: white;
+   bottom: 1px;
+   left: 110px;
+   font-size: 12px;
+   opacity: .6;
+   width: 200px;
+}
+
+.pointbtn {
+   /* border: 2px solid yellow; */
+   position: relative;
+   width: 100px;
+   left: 470px;
+   bottom: 125px;
+   height: 10px;
+   align-items: center;
+}
+
+.pointbtn .point {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+
+}
+
+.pointbtn .point1 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 12px;
+   bottom: 6px;
+}
+
+.pointbtn .point2 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 23px;
+   bottom: 12px;
+}
+
+.pointbtn .point3 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 34px;
+   bottom: 18px;
+}
+
+.pointbtn .point4 {
+   border: 4px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 44px;
+   bottom: 25px;
+}
+
+.pointbtn .point5 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 55px;
+   bottom: 31px;
+}
+
+.pointbtn .point6 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 67px;
+   bottom: 37px;
+}
+
+.pointbtn .point7 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 78px;
+   bottom: 43px;
+}
+
+.pointbtn .point8 {
+   border: 1px solid #094466;
+   position: relative;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   left: 88px;
+   bottom: 49px;
+}
+
+/* ============= Fin CSS replique ================= */
+
+/* =============== Debut CSS Footer ============== */
+#foot {
+   position: relative;
+   top: 1800px;
+   height: 240px;
+
+}
+
+.propos {
+   position: relative;
+   top: 75px;
+   width: 600px;
+   left: 315px;
+}
+
+.propos p {
+   position: relative;
+   color: white;
+   left: 65px;
+   width: 450px;
+   bottom: 10px;
+   opacity: .6;
+   font-size: 9.5px;
+}
+
+.propos .icon_WB {
+   position: relative;
+   top: 10px;
+   left: 35px;
+   width: 4%;
+}
+
+.icon_WB:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer {
+   position: relative;
+   align-items: center;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   width: 800px;
+   top: 90px;
+   left: 180px;
+}
+
+.container_logo_footer .logo_sayna {
+   position: relative;
+   left: 145px;
+   width: 47px;
+}
+
+.logo_sayna:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer .icon_x {
+   position: relative;
+   left: 85px;
+   width: 22px;
+}
+
+.icon_x:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer .icon_DC {
+   position: relative;
+   width: 54px;
+}
+
+.icon_DC:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer .icon_DC .logo_icon_DC {
+   width: 45px;
+}
+
+.container_logo_footer .icon_facebook2 {
+   position: relative;
+   right: 30px;
+   width: 28px;
+}
+
+.icon_facebook2:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer .icon_ig2 {
+   position: relative;
+   right: 95px;
+   width: 28px;
+}
+
+.icon_ig2:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+.container_logo_footer .icon_tw2 {
+   position: relative;
+   right: 160px;
+   width: 28px;
+}
+
+.icon_tw2:hover {
+   filter: invert(45%) sepia(50%) saturate(1200%) hue-rotate(20deg) brightness(107%) contrast(500%);
+}
+
+/* =============== Fin CSS Footer ============== */
